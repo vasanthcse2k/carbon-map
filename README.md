@@ -21,8 +21,6 @@ To display the carbon intensity across regions for the latest 30-minute interval
 ## **Features**
 - Interactive heat map showing carbon intensity across regions.
 - Fetches the latest 30-minute data dynamically from the API.
-- User-friendly design with visually appealing color schemes.
-- Icons for data points (powered by [Flaticon](https://www.flaticon.com/)).
 - Free and open-source hosting for easy access.
 - Fully responsive design for desktop and mobile users.
 
@@ -31,7 +29,7 @@ To display the carbon intensity across regions for the latest 30-minute interval
 ## **Technologies Used**
 - **Framework**: React.js 
 - **Styling**: CSS 
-- **Mapping Library**: [OpenLayers/Leaflet/Mapbox GL JS](https://dev.to/camptocamp-geo/the-3-best-open-source-web-mapping-libraries-57o7)
+- **Mapping Library**: [OpenLayers](https://dev.to/camptocamp-geo/the-3-best-open-source-web-mapping-libraries-57o7)
 - **API**: [Carbon Intensity API](https://carbon-intensity.github.io/api-definitions/#get-regional-regionid-regionid)
 
 ---
@@ -51,4 +49,31 @@ Make sure you have the following installed:
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/carbon-map-js.git
+   git clone https://github.com/vasanthcse2k/carbon-map.git
+
+2. Navigate to the project directory:
+
+  cd carbon-map
+
+3. Check Current Branch
+   
+   git branch 
+   git checkout carbon-dating
+
+4. Install the dependencies using npm
+   
+    npm install
+
+5. To start the development server, run:
+
+    npm run dev
+
+6. The app will be available at
+     
+     https://carbonmapping.netlify.app/
+ 
+   
+
+
+
+
